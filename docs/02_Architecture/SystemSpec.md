@@ -1,7 +1,7 @@
 # System Architecture Specification (SystemSpec)
 
 ## 1. 아키텍처 개요 (Architecture Overview)
-Antigravity 프로젝트는 **Vanilla JavaScript (ES6)**를 기반으로 하며, 외부 의존성을 최소화하여 가볍고 빠른 성능을 지향합니다. 구조는 크게 **Core Game Logic**, **Physics Engine Wrapper**, **UI/Screen Management**, **Data Persistence** 4개의 계층으로 나뉩니다.
+jules_physics_game 프로젝트는 **Vanilla JavaScript (ES6)**를 기반으로 하며, 외부 의존성을 최소화하여 가볍고 빠른 성능을 지향합니다. 구조는 크게 **Core Game Logic**, **Physics Engine Wrapper**, **UI/Screen Management**, **Data Persistence** 4개의 계층으로 나뉩니다.
 
 ## 2. 기술 스택 (Tech Stack)
 - **Language**: JavaScript (ES6 Modules)
@@ -92,3 +92,4 @@ classDiagram
 3. **Event**: `Matter.Events` (Collision) -> `Game.js` (Merge Logic).
 4. **Update**: `Game.js` -> `UIManager` (Score Update) -> DOM/Canvas.
 5. **Persistence**: `Game.js` (Level Clear) -> `ProgressManager` -> `localStorage`.
+
