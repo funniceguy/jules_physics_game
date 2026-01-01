@@ -1,7 +1,7 @@
 # Product Requirements Document (PRD)
 
 ## 1. 프로젝트 개요 (Project Overview)
-- **프로젝트명**: Life Pieces (Antigravity)
+- **프로젝트명**: Life Pieces 
 - **장르**: 물리 기반 머지 퍼즐 게임 (Physics-based Merge Puzzle)
 - **플랫폼**: Web (Mobile First, Desktop Compatible)
 - **핵심 경험**: 
@@ -49,3 +49,4 @@
 - **Local Storage**: 서버 없이 클라이언트 저장소만 사용.
     - Key: `lifepieces_progress`
     - Data: Inventory, HighScore, UnlockedStories, ClaimedAchievements.
+
